@@ -1,0 +1,34 @@
+import java.util.ArrayList;
+
+
+public class t {
+	int q;
+	int size;
+	int c;
+	public ArrayList<String> coke;
+	
+	public void Coke(){
+		coke = new ArrayList<String>();
+		coke.add("coke1");
+		coke.add("coke2");
+		coke.add("coke3");
+		coke.add("coke4");
+		coke.add("coke5");
+		q = coke.size();
+		System.out.println("available"+q);
+	}
+public int removeCoke(int n00){
+		
+		int c;
+		for(c=0;c<n00;c++)
+		{
+			coke.remove(c);
+			
+			size = coke.size();
+			q=size;
+		}
+		System.out.println("now"+q);
+		return q;
+	}
+
+}

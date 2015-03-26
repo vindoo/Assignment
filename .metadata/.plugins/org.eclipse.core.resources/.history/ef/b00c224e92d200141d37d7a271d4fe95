@@ -1,0 +1,9 @@
+
+public class AvailableProducts {
+	Test t = new Test();
+
+	public void test(){
+	t.productList();
+	
+	}
+}

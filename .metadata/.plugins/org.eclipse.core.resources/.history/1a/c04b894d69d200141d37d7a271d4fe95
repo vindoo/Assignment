@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class AvailableProducts {
+	public static void main(String args[]) {
+		//ArrayList<String> product = new ArrayList<String>();
+		HashSet<String> product = new HashSet<String>();
+		//Scanner sc = new Scanner(System.in);
+		//System.out.println("Please enter product: ");
+		for (int x = 0; x <= 4; x++) {
+			product.add("COKE");
+			product.add("HERSHEYS");
+			product.add("WATER");
+			product.add("GUM");
+			product.add("CHIPS");
+		}
+//Displaying all the products available
+Iterator<String> it = product.iterator();
+System.out.println("The products available are:");
+while(it.hasNext()){
+		System.out.println(it.next());
+		}
+ArrayList<String> coke = new ArrayList<String>();
+coke.add("coke1");
+coke.add("coke2");
+coke.add("coke3");
+coke.add("coke4");
+coke.add("coke5");
+System.out.println("Number of cokes available are: "+coke.size());
+ArrayList<String> hersheysBar = new ArrayList<String>();
+coke.add("hersheys1");
+coke.add("hersheys2");
+coke.add("hersheys3");
+coke.add("hersheys4");
+coke.add("hersheys5");
+coke.add("hersheys6");
+System.out.println("Number of cokes available are: "+hersheysBar.size());
+ArrayList<String> waterBottles = new ArrayList<String>();
+coke.add("waterBottles1");
+coke.add("waterBottles2");
+coke.add("waterBottles3");
+coke.add("waterBottles4");
+coke.add("waterBottles5");
+System.out.println("Number of cokes available are: "+waterBottles.size());
+
+	}
+}

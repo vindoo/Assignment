@@ -1,0 +1,63 @@
+import java.util.Scanner;
+
+public class AvailableProducts {
+	
+	public static void main(String args[]) {
+//		Test t = new Test();
+//		t.productList();
+//		t.coke();
+//		t.waterbottles();
+//		t.hersheysBar();
+//		t.chips();
+//		t.gum();
+		Scanner scan= new Scanner(System.in);
+		int s= scan.nextInt();
+
+		switch (s){
+		
+		case 0:
+			System.out.println("Coke is Selected");
+			System.out.println("Enter Quantity");
+			Scanner sc =new Scanner(System.in);
+			int n = sc.nextInt();	
+			n=n*2;
+			System.out.println("Insert amount"+n);
+			break;
+		case 1:
+			System.out.println("Hersheys Bar is Selected");
+			System.out.println("Enter Quantity");
+			Scanner sc1 =new Scanner(System.in);
+			int n1 = sc1.nextInt();	
+			n1=n1*3;
+			System.out.println("Insert amount"+n1);
+			break;
+		case 2:
+			System.out.println("Water Bottle is Selected");
+			System.out.println("Enter Quantity");
+			Scanner sc2 =new Scanner(System.in);
+			int n2 = sc2.nextInt();	
+			n2=n2*1;
+			System.out.println("Insert amount"+n2);
+			break;
+		case 3:
+			System.out.println("Gum is Selected");
+			System.out.println("Enter Quantity");
+			Scanner sc3 =new Scanner(System.in);
+			int n3 = sc3.nextInt();	
+			n3=n3*4;
+			System.out.println("Insert amount"+n3);
+			break;
+		case 4:
+			System.out.println("Chips is Selected");
+			System.out.println("Enter Quantity");
+			Scanner sc4 =new Scanner(System.in);
+			int n4 = sc4.nextInt();	
+			n4=n4*5;
+			System.out.println("Insert amount"+n4);
+			break;
+			
+		
+
+	}
+		scan.close();
+}}

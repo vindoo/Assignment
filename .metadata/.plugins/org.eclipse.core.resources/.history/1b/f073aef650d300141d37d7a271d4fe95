@@ -1,0 +1,37 @@
+import java.util.LinkedList;
+
+//import java.util.ArrayList;
+
+
+public class ProductsDisplay {
+	public int q, q1, q2, q3, q4;
+	public LinkedList<String> coke;
+	int size =q;
+	public void Coke() {
+		coke = new LinkedList<String>();
+		coke.add("coke1");
+		coke.add("coke2");
+		coke.add("coke3");
+		coke.add("coke4");
+		coke.add("coke5");
+		q = coke.size();
+
+		}
+
+	public int removeCoke(int n00){
+		
+		int c;
+		for(c=0;c<n00;c++)
+		{
+			coke.remove(0);
+			
+			size = coke.size();
+			q=size;
+		}
+		if(q==0)
+			System.out.println("no cokes available");
+		return q;
+		
+	}
+	
+}

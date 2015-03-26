@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Finding_WebElements&apos; to &apos;NPU_Login&apos;&#x0D;&#x0A;- Original project: &apos;Web_Driver&apos;&#x0D;&#x0A;- Original element: &apos;Finding_WebElements&apos;&#x0D;&#x0A;- Renamed element: &apos;NPU_Login&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Finding_WebElements&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Finding_WebElements.java[Finding_WebElements" matchStrategy="1" name="NPU_Login" qualified="false" references="true" similarDeclarations="false" stamp="1416242214676" textual="false" version="1.0"/>
+</session>

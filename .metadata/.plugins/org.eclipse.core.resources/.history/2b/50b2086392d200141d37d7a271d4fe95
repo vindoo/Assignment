@@ -1,0 +1,13 @@
+public class AvailableProducts {
+	
+	public void test() {
+		Test t = new Test();
+		t.productList();
+		t.coke();
+		t.waterbottles();
+		t.hersheysBar();
+		t.chips();
+		t.gum();
+
+	}
+}

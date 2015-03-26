@@ -1,0 +1,16 @@
+
+public class AvailableProducts {
+	
+	public static void main(String args[]) {
+		Test t = new Test();
+		t.displayAllProducts();
+      t.Coke();
+//		t.waterbottles();
+//		t.hersheysBar();
+//		t.chips();
+//		t.gum();
+		t.enterValue();
+		System.out.println("Thankyou for the purchase");
+		
+	}
+}

@@ -1,0 +1,7 @@
+
+public class AvailableProducts {
+	public Test t;
+	public void test(){
+	t.productList();
+	}
+}

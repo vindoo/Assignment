@@ -1,0 +1,9 @@
+127.0.0.1 - - [11/Jan/2015:10:32:35 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [11/Jan/2015:10:32:37 -0500] "GET /web-project/ HTTP/1.1" 200 151
+0:0:0:0:0:0:0:1 - - [11/Jan/2015:10:36:12 -0500] "GET /web-project/ HTTP/1.1" 200 158
+0:0:0:0:0:0:0:1 - - [11/Jan/2015:11:56:57 -0500] "GET /web-project/services/greet/json/test2 HTTP/1.1" 200 30
+0:0:0:0:0:0:0:1 - - [11/Jan/2015:11:57:14 -0500] "GET /web-project/services/greet/json/test2 HTTP/1.1" 200 30
+0:0:0:0:0:0:0:1 - - [11/Jan/2015:11:57:14 -0500] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [11/Jan/2015:11:58:02 -0500] "GET /web-project/services/greet/xml/test2 HTTP/1.1" 200 102
+0:0:0:0:0:0:0:1 - - [11/Jan/2015:11:58:11 -0500] "GET /web-project/services/greet/json/test2 HTTP/1.1" 200 30
+0:0:0:0:0:0:0:1 - - [11/Jan/2015:11:58:26 -0500] "GET /web-project/services/greet/xml/test2 HTTP/1.1" 200 102

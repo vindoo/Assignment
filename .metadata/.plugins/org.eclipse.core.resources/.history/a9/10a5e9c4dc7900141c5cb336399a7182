@@ -1,0 +1,21 @@
+import org.junit.Test;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class Amazon {
+	
+	@Test
+	public void testamazon(){
+		
+		/* open the internet browser and go to wwww.amazon.com
+		 * In the search space, search for the item "watch"
+		 * select the desired watch 
+		 * 
+		 */
+		
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("https://amazon.com");
+		
+	}
+
+}

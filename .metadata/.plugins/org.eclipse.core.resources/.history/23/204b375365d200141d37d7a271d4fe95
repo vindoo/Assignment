@@ -1,0 +1,24 @@
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class test {
+	public static void main(String args[]) {
+		//ArrayList<String> product = new ArrayList<String>();
+		HashSet<String> product = new HashSet<String>();
+		//Scanner sc = new Scanner(System.in);
+		//System.out.println("Please enter product: ");
+		for (int x = 0; x <= 4; x++) {
+			product.add("COKE");
+			product.add("HERSHEYS");
+			product.add("WATER");
+			product.add("GUM");
+			product.add("CHIPS");
+		}
+//Displaying all the products available
+Iterator<String> it = product.iterator();
+System.out.println("The products available are:");
+while(it.hasNext()){
+		System.out.println(it.next());
+		}
+	}
+}

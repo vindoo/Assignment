@@ -1,0 +1,263 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Test {
+	public int q, q1, q2, q3, q4;
+
+	public void productList() {
+		HashSet<String> product = new HashSet<String>();
+		for (int x = 0; x <= 4; x++) {
+			product.add("COKE");
+			product.add("HERSHEYS");
+			product.add("WATER");
+			product.add("GUM");
+			product.add("CHIPS");
+		}
+		// Displaying all the products available
+		Iterator<String> it = product.iterator();
+		System.out.println("The products available are:");
+		while (it.hasNext()) {
+			System.out.println(it.next());
+		}
+	}
+
+	public int coke(n1){
+		ArrayList<String> coke = new ArrayList<String>();
+		coke.add("coke1");
+		coke.add("coke2");
+		coke.add("coke3");
+		coke.add("coke4");
+		coke.add("coke5");
+		q = coke.size();
+		// Displaying number of cokes
+		System.out.println("Number of cokes available are: " + q);
+int c;
+	 for(c=0;c<=n;c++)
+	 {
+		coke.remove(c); 
+	 }
+	return q;
+ 
+		
+		 
+		 
+		 
+	 
+ }
+	public void hersheysBar() {
+		ArrayList<String> hersheysBar = new ArrayList<String>();
+		hersheysBar.add("hersheys1");
+		hersheysBar.add("hersheys2");
+		hersheysBar.add("hersheys3");
+		hersheysBar.add("hersheys4");
+		hersheysBar.add("hersheys5");
+		hersheysBar.add("hersheys6");
+		q1 = hersheysBar.size();
+		// Displaying number of HersheysBars available
+		System.out.println("Number of hersheysBars available are: " + q1);
+	}
+
+	public void waterbottles() {
+		ArrayList<String> waterBottles = new ArrayList<String>();
+		waterBottles.add("waterBottles1");
+		waterBottles.add("waterBottles2");
+		waterBottles.add("waterBottles3");
+		waterBottles.add("waterBottles4");
+		waterBottles.add("waterBottles5");
+		q2 = waterBottles.size();
+		// Displaying number of waterbottles available
+		System.out.println("Number of waterBottles available are: " + q2);
+	}
+
+	public void gum() {
+		ArrayList<String> gums = new ArrayList<String>();
+		gums.add("gum1");
+		gums.add("gum2");
+		gums.add("gum3");
+		gums.add("gum4");
+		gums.add("gum5");
+		q3 = gums.size();
+		// Displaying number of Gums available
+		System.out.println("Number of gums available are: " + q3);
+	}
+
+	public void chips() {
+		ArrayList<String> chipsPackets = new ArrayList<String>();
+		chipsPackets.add("chipsPacket1");
+		chipsPackets.add("chipsPacket2");
+		chipsPackets.add("chipsPacket3");
+		chipsPackets.add("chipsPacket4");
+		chipsPackets.add("chipsPacket5");
+		q4 = chipsPackets.size();
+		// Displaying the number of Chips available
+		System.out.println("Number of chipsPackets available are: " + q4);
+	}
+
+	public void enterValue() {
+		int n0 = 0;
+		int n1 = 0;
+		int n2 = 0;
+		int n3= 0;
+		int n4 = 0;
+		
+		int t = 0;
+		int p;
+		int i;
+		int r;
+		int j;
+		Scanner scan = new Scanner(System.in);
+		for (i = 0; i >= 0; i++) {
+			int s = scan.nextInt();
+
+			switch (s) {
+
+			case 0:
+				System.out.println("Coke is Selected");
+				System.out.println("Enter Quantity");
+
+				for (j = 0; j >= 0; j++) {
+					n1 = scan.nextInt();
+					if ((n0 <= q) && (n0 != 0)) {
+						t = n0 * 2;
+						System.out.println("Insert amount" + t);
+						for (r = 0; r >= 0; r++) {
+							p = scan.nextInt();
+							if (p == t) {
+								System.out.println("Ammount recieved and" + n0
+										+ "number of coke tins recieved");
+								r = 0;
+								break;
+							} else {
+								System.out.println("Amount not sufficient");
+
+							}
+						}
+						j = 0;
+						break;
+					} else
+						System.out.println("Enter avaiable coke quantity");
+				}
+
+				break;
+			case 1:
+				System.out.println("Hersheys Bar is Selected");
+				System.out.println("Enter Quantity");
+				for (j = 0; j >= 0; j++) {
+					n1 = scan.nextInt();
+					if ((n1 <= q1) && (n1 != 0)) {
+						t = n1 * 3;
+						System.out.println("Insert amount" + t);
+						for (r = 0; r >= 0; r++) {
+							p = scan.nextInt();
+							if (p == t) {
+								System.out.println("Ammount recieved and" + n1
+										+ "number of Hersheys bars recieved");
+								r = 0;
+								break;
+							} else {
+								System.out.println("Amount not sufficient");
+
+							}
+						}
+						j = 0;
+						break;
+					} else
+						System.out
+								.println("Enter available Hersheys Bar Quantity");
+				}
+				break;
+			case 2:
+				System.out.println("Water Bottle is Selected");
+				System.out.println("Enter Quantity");
+				for (j = 0; j >= 0; j++) {
+					n2 = scan.nextInt();
+					if ((n2 <= q2) && (n2 != 0)) {
+						t = n2 * 1;
+						System.out.println("Insert amount" + t);
+						for (r = 0; r >= 0; r++) {
+							p = scan.nextInt();
+							if (p == t) {
+								System.out.println("Ammount recieved and" + n2
+										+ "number of water bottles recieved");
+								r = 0;
+								break;
+							} else {
+								System.out.println("Amount not sufficient");
+
+							}
+						}
+						j = 0;
+						break;
+					} else
+						System.out
+								.println("Enter available water bottle Quantity");
+				}
+
+				break;
+			case 3:
+				System.out.println("Gum is Selected");
+				System.out.println("Enter Quantity");
+				for (j = 0; j >= 0; j++) {
+					n3 = scan.nextInt();
+					if ((n3 <= q3) && (n3 != 0)) {
+						t = n3 * 4;
+						System.out.println("Insert amount" + t);
+						for (r = 0; r >= 0; r++) {
+							p = scan.nextInt();
+							if (p == t) {
+								System.out.println("Ammount recieved and" + n3
+										+ "number of gums recieved");
+								r = 0;
+								break;
+							} else {
+								System.out.println("Amount not sufficient");
+
+							}
+						}
+						j = 0;
+						break;
+					} else
+						System.out.println("Enter available gum Quantity");
+				}
+				break;
+
+			case 4:
+				System.out.println("Chips is Selected");
+				System.out.println("Enter Quantity");
+				for (j = 0; j >= 0; j++) {
+					n = scan.nextInt();
+					if ((n <= q4) && (n != 0)) {
+						t = n * 5;
+						System.out.println("Insert amount" + t);
+						for (r = 0; r >= 0; r++) {
+							p = scan.nextInt();
+							if (p == t) {
+								System.out.println("Ammount recieved and" + n
+										+ "numbers of chips packets recieved");
+								r = 0;
+								break;
+							} else {
+								System.out.println("Amount not sufficient");
+
+							}
+						}
+						j = 0;
+						break;
+					} else
+						System.out
+								.println("Enter available chips packet Quantity");
+				}
+
+				break;
+			default:
+
+				System.out.println("Enter the numbers 0 or 1 or 2 or 3 or 4 ");
+			}
+		}
+		scan.close();
+	}
+}
+
+// }

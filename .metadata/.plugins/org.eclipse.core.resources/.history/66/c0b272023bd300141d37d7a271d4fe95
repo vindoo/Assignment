@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+
+public class ProductsDisplay extends t {
+	public static void main(String args[]){
+	
+		t t1 =new t();
+		t1.Coke();
+		t1.removeCoke(2);
+		
+	}
+	
+}

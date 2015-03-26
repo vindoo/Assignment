@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+
+public class ProductsDisplay {
+	public int q, q1, q2, q3, q4;
+	public void coke(){
+		ArrayList<String> coke = new ArrayList<String>();
+		coke.add("coke1");
+		coke.add("coke2");
+		coke.add("coke3");
+		coke.add("coke4");
+		coke.add("coke5");
+		q = coke.size();
+	}
+}

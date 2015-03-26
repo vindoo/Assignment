@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="ERROR">
+  <Appenders>
+    
+  <File name="test" fileName="C:/temp/app1.log">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </File> 
+  </Appenders>
+  <Loggers>
+   
+    <Root level="error">
+      <AppenderRef ref="test"/>
+    </Root>
+  </Loggers>
+</Configuration>

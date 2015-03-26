@@ -1,0 +1,16 @@
+package com.service;
+
+import org.springframework.stereotype.Controller;
+
+import com.model.Order;
+
+@Controller
+public class OrderController {
+
+	public void processOrder(Order order){
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,17 @@
+package com.service;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+
+import com.model.Order;
+
+@Controller
+public class OrderController {
+
+	public void processOrder(@ModelAttribute Order order){
+		
+		
+	}
+	
+	
+}

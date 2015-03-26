@@ -1,0 +1,36 @@
+//import java.util.ArrayList;
+import java.util.LinkedList;
+
+
+public class t {
+	int q;
+	int size;
+	int c;
+	public LinkedList<String> coke;
+	
+	public void Coke(){
+		coke = new LinkedList<String>();
+		coke.add("coke1");
+		coke.add("coke2");
+		coke.add("coke3");
+		coke.add("coke4");
+		coke.add("coke5");
+		q = coke.size();
+		System.out.println("available"+q);
+	}
+public int removeCoke(int n00){
+		
+		int c;
+		for(c=0;c<n00;c++)
+		{
+			coke.remove(0);
+			
+			size = coke.size();
+			q=size;
+		}
+		System.out.println("now"+q);
+		System.out.println(coke.get(0)+coke.get(1)+coke.get(2));
+		return q;
+	}
+
+}

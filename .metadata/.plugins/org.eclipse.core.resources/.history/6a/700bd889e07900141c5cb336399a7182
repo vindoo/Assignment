@@ -1,0 +1,33 @@
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class Amazon {
+	
+	@Test
+	public void testamazon(){
+		
+		/* open the internet browser and go to wwww.amazon.com
+		 * click on sign-in and enter email id and password
+		 * In the search space, search for the item "watch" and click "go" button
+		 * select the desired watch 
+		 * click on "Add to cart" button
+		 * click on "continue adding to cart" button
+		 * click on "proceed to checkout" button
+		 * Select the "ship to address" button
+		 * select the shipping options
+		 * click on continue button
+		 * select the card and click on continue
+		 * 
+		 */
+		
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("https://amazon.com");
+		WebElement nav = driver.findElement(By.id("nav-your-account"));
+		WebElement signin = driver.findElement(By.xpath(".//input[@id='nav-flyout-ya-signin']/a/span"));
+		
+	}
+
+}

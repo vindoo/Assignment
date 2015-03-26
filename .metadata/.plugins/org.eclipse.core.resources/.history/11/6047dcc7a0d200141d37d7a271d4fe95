@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class AvailableProducts {
+	
+	public static void main(String args[]) {
+//		Test t = new Test();
+//		t.productList();
+//		t.coke();
+//		t.waterbottles();
+//		t.hersheysBar();
+//		t.chips();
+//		t.gum();
+		
+	}
+}
